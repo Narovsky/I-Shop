@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table>
+    <thead>
+    <tr><th>Имя</th><th>Цена</th>Подсчёт</tr>
+    </thead>
+    <tbody>
+    {% for Item in items %}
+    <tr><td>{{ Item.name }}</td><td>{{ Item.price }}</td><td>{{ Item.count }}</td></tr>
+    {% endfor %}
+    </tbody>
+</table>
+</body>
+</html>
