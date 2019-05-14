@@ -5,5 +5,5 @@ from shop.catalog.models import Item
 
 
 @admin.register(Item)
-class catalogAdmin(admin.ModelAdmin):
+class ItemAdmin(admin.ModelAdmin):
     pass
